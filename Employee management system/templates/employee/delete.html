@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>{{user.first_name}} &nbsp; {{user.last_name}}</h2>
+<form method="POST">
+    {% csrf_token %}
+    <p>Are u sure delete this employee</p>
+    <button type="submit" value="Yes">Delete Employee</button>
+</form>
+{% endblock content %}

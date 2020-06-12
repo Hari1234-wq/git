@@ -1,0 +1,113 @@
+body{
+    font-family: "Helvetica Neue",sans-serif;
+    font-size: 18px;
+}
+
+.dropdown-item:hover{
+    background: linear-gradient(45deg,black,darkslategray);
+    color: white !important;
+    box-shadow: 0 0 5px darkslategray;
+}
+.bg-secondary , .btn-secondary{
+    background: linear-gradient(45deg,black,purple) !important;
+}
+.bg-danger , .btn-danger{
+    background: linear-gradient(45deg,black,red);
+}
+.bg-dark , .btn-dark{
+    background: linear-gradient(45deg,black,darkslategray);
+}
+.bg-primary , .btn-primary{
+    background: linear-gradient(45deg,black,dodgerblue);
+}
+.bg-warning , .btn-warning{
+    background: linear-gradient(45deg,black,orange);
+}
+.bg-success , .btn-success{
+    background: linear-gradient(45deg,black,limegreen);
+}
+.bg-teal , .btn-teal{
+    background-color: #003737;
+}
+.text-teal{
+    color: #003737;;
+}
+.bg-light-blue{
+    background-color: lightblue;
+}
+.bg-light-green{
+    background-color: lightgreen;
+}
+.bg-light-salmon{
+    background-color: #ffda96;
+}
+.a{
+    height: 500px;
+}
+.c{
+    background: linear-gradient(45deg,black,blueviolet );
+}
+/*-------------new css----------*/
+.bg-teal , .btn-teal{
+    background: #002828 !important;
+}
+.bg-success , .btn-success{
+    background: linear-gradient(45deg,black,green);
+}
+.bg-warning , .btn-warning{
+    background: linear-gradient(45deg,black,orangered);
+}
+.text-success{
+    color: darkgreen !important;
+}
+.text-warning{
+    color: orangered !important;
+}
+.text-teal{
+    color: #002828 !important;
+    text-shadow: 0 0 2px white;
+}
+.carousel .carousel-indicators li {
+    width: 30px;
+    height: 5px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+.c-image{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #002828;
+}
+.t_img{
+    box-shadow: 0 0 10px #002828;
+    margin-top: -50px;
+}
+
+.t_card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #002828;
+    transition: all 0.5s;
+}
+.t_card:hover{
+    background-color: #002828;
+    color: white;
+    transform: perspective(400px) rotateY(10deg);
+}
+.t_card:hover .fab{
+    color: white !important;
+}
+.c_card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #002828;
+    transition: all 0.5s;
+}
+.c_card:hover{
+    background-color: #002828;
+    color: white;
+    transform: perspective(400px) rotateY(10deg);
+}
+.c_card:hover h3 , .c_card:hover .fa , .c_card:hover .fab{
+    color: white !important;
+}
+#submit-btn{
+    width: 500px;
+}
